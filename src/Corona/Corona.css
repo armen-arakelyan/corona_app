@@ -1,0 +1,96 @@
+.corona_page{
+    display: flex;
+    width:100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.corona_content{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 1px 1px silver;
+    border-radius: 10px;
+    background: linear-gradient(#667eea, #764ba2);
+}
+
+.corona_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px 0;
+}
+
+.corona_box input{
+    border:none;
+    border-bottom:2px solid silver;
+    background: none;
+    outline: none;
+    color:silver;
+    font-size: 20px;
+    transition: border 0.5s ease;
+}
+
+.corona_box button{   
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 50px;
+    background: #2f60bb;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.corona_box h1{
+    text-transform: uppercase;
+    font-family: monospace;
+    color:#333;
+    cursor: pointer;
+}
+
+.corona_change{
+    flex-direction: column;
+    align-items: center;
+}
+
+.corona_data{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.corona_array{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 50%;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.corona_values{
+    display: flex;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.corona_values img{
+    width:16px;
+    height: 16px;
+}
+
+.corona_values b{
+    color:#2ECC40;
+}
+
+.corona_values p{
+    color:#39CCCC;
+}
