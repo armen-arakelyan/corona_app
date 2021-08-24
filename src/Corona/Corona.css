@@ -8,7 +8,6 @@
 .corona_content{
     display: flex;
     width: 500px;
-    height: 400px;
     box-shadow: 0 0 1px 1px silver;
     border-radius: 10px;
     background: linear-gradient(#667eea, #764ba2);
@@ -63,7 +62,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
 }
 
 .corona_array{
