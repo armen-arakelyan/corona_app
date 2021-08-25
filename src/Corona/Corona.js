@@ -15,7 +15,7 @@ const Corona=()=>{
     useEffect(()=>{
         axios.get(`https://corona-api.com/countries/${country}`)
         .then(corona=>setData([corona.data]))
-    },[country])  //confirmed,deaths
+    },[country]) 
 
     return(
         <div className="corona_page">
@@ -23,7 +23,7 @@ const Corona=()=>{
                 <div className="corona_box">
                     <h1 onClick={()=>setInpDisplay(!inpDisplay)}>{country}</h1>
                     <form className="corona_change" style={{display:inpDisplay?"flex":"none"}} onSubmit={handleSubmit(getData)}>
-                    <input onChange={e=>setCountry(e.target.value)} {...register('country')} />
+                    <input maxLength="3" onChange={e=>setCountry(e.target.value)} {...register('country')} />
                     <button>Change</button>
                     </form>
                     <div className="corona_data">
